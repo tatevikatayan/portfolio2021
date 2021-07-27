@@ -68,3 +68,22 @@ sweetch.onclick = function(){
 
 
 
+var modal = document.querySelector('.modal');
+var imgs = document.querySelectorAll('.myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.querySelector(".caption");
+
+imgs.forEach(img => {
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        console.dir(this.src);
+        captionText.innerHTML = this.alt;	
+  }
+
+});
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function(){
+	modal.style.display = "none";
+}
