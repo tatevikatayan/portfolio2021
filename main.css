@@ -655,7 +655,11 @@ img {
     background-color: var(--white);
     padding-top: 40px;
     padding-bottom: 40px;
+<<<<<<< HEAD
     height: 90%;
+=======
+    height: 85%;
+>>>>>>> 6bfd7b0890716abb7161705d5d85788512ac9c1b
     z-index: 35;
     -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
